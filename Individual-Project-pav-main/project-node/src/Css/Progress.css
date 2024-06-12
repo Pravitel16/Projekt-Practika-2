@@ -1,0 +1,92 @@
+.task-app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+
+
+.view-buttons {
+  margin-bottom: 10px;
+}
+
+.view-buttons button {
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.view-buttons button.active {
+  background-color: #488193;
+
+}
+
+.view-buttons button {
+  margin: 0 0px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #3e5962;
+  color: #fff;
+  transition: background-color 0.2s;
+}
+
+.view-buttons button:hover {
+  background-color: #36697a;
+  color: black;
+}
+
+.list-view-column {
+  display: flex;
+  gap: 10px;
+}
+.list-view{
+  gap: 10px;
+}
+.list-view-column div {
+  display: flex;
+  align-items: flex-start;
+flex-direction: column;
+}
+/* .list-view-column div p {
+  margin-right: 10px; 
+} */
+.obj-change{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.obj-change  p{
+
+  margin-bottom: 8px;
+}
+.grid-view-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.columns{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+.gridobj{
+  display: grid;
+  grid-template-columns:auto;
+  gap: 25px;
+}
+
+.details-link-nav{
+  display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+
+}
+.details-link-nav:hover{
+  background-color: #3C257C;
+  color: #FFFFFF;
+}

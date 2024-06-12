@@ -1,0 +1,50 @@
+.obj-container{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.obj-container h4{
+    background-color: #30697b;
+    width: 350px;
+    height: auto;
+    padding-left: 4px;
+    border-radius: 5px;
+    color: #000000;
+  
+}
+.obj-container  h4 +p +p+ p+ button{
+    margin-bottom: 10px;
+
+}
+.obj-container  h4 +p +p+ p{
+    margin-bottom: 20px;
+
+}
+.obj-container  h4 +p +p{
+    margin-bottom: 20px;
+
+}
+.obj-container  h4 +p{
+    margin-bottom: 20px;
+
+}
+.showcase p +p{
+    margin-bottom: 15px;
+    
+}
+
+
+.details-link{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+    border: 0;
+    color: #3a6776;
+}
+.details-link:hover {
+    background-color: #488498;
+    color: #FFFFFF;
+  }

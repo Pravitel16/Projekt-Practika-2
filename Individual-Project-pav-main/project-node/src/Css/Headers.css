@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #3e5962;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .navbar a.active {
+    background-color: #ffffff;
+    color: #27212c;
+    padding: 5px 10px;
+  }
+  
+  .navbar i {
+    color: #ffffff;
+    margin-right: 5px;
+  }
+
+
+
+
+.emailcss{
+  display: flex;
+     
+      border-radius: 5%;
+      margin-right: 5px;
+      
+      height:25px;
+}
+.emailcss span{
+  display: flex;
+  align-items: center;
+}
+.flexdiv{
+    display: flex;
+    align-items: center;
+}
+.emailcol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #1f1d21;
+
+}

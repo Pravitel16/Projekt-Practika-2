@@ -1,0 +1,79 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependency directories
+node_modules/
+npm-debug.log
+
+# Environment files
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Build output
+build/
+dist/
+
+# Editor specific files
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+src/temporarily-disabled-file.js
+# gitignore
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.sublime-project
+*.sublime-workspace
+pids
+logs
+reports
+coverage
+.nyc_output/
+build
+node_modules
+!tests/**/node_modules
+npm-debug.log
+sftp-config.json
+eslint-remote-tester-results
+
+# Only apps should have lockfiles
+npm-shrinkwrap≥json
+package-lock.json
+yarn.lock
+
+.npmignore

@@ -1,0 +1,14 @@
+.footer {
+    padding: 1px;
+    background-color: #3e5962;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+  }
+  .footer img {
+    filter: invert(1); 
+  }
+.footer ,h1 ,p {
+margin-top: 15px;
+margin-bottom: 2px;
+  }
